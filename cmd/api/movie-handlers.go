@@ -13,7 +13,7 @@ import (
 
 type jsonResp struct {
 	OK      bool   `json:"ok"`
-	Message string `json="message"`
+	Message string `json:"message"`
 }
 
 func (app *application) getOneMovie(w http.ResponseWriter, r *http.Request) {
